@@ -1,0 +1,89 @@
+section.sec-lan-2, .sec-lan-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.sec-lan-2 > div, .sec-lan-1 > div {
+  flex: 100%;
+}
+section.sec-lan-2 > div img, .sec-lan-1 > div img {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  section.sec-lan-2 > div, .sec-lan-1 > div {
+    flex: 50%;
+  }
+}
+
+.sec-lan-1 > div.image {
+  order: -1;
+}
+@media (min-width: 576px) {
+  .sec-lan-1 > div.image {
+    order: 0;
+  }
+}
+.sec-lan-1 .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-lan-1 .text {
+  padding: 20px;
+  text-align: center;
+}
+.sec-lan-1 .text > *:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .sec-lan-1 .text {
+    padding: 50px 80px;
+    text-align: left;
+  }
+}
+.sec-lan-1 .text h3 {
+  font-family: var(--fontFamily-2);
+  font-size: 26px;
+}
+@media (min-width: 992px) {
+  .sec-lan-1 .text h3 {
+    font-size: 40px;
+    max-width: 400px;
+  }
+}
+.sec-lan-1 .text p {
+  color: var(--Very-darkgrayish-blue);
+  line-height: 1.6;
+}
+@media (min-width: 1400px) {
+  .sec-lan-1 .text {
+    max-width: 600px;
+  }
+}
+.sec-lan-1 .text button {
+  background: no-repeat;
+  border: gainsboro;
+  font-size: 14px;
+  font-family: var(--fontFamily-2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+section.sec-lan-2 > div {
+  position: relative;
+}
+section.sec-lan-2 > div .text {
+  position: absolute;
+  bottom: 45px;
+  text-align: center;
+  width: 100%;
+}
+section.sec-lan-2 > div .text h3 {
+  font-family: var(--fontFamily-2);
+}
+section.sec-lan-2 > div .text p {
+  max-width: 300px;
+  line-height: 1.5;
+  margin: 10px auto 0px;
+  color: var(--Primary-Dark-blue-photography-text);
+}/*# sourceMappingURL=secs-lans.css.map */

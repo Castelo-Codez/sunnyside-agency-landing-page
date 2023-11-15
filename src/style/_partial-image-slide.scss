@@ -1,0 +1,14 @@
+section.images-slide {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr 1fr;
+        }
+        li {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

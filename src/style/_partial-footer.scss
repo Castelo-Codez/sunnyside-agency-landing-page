@@ -1,0 +1,26 @@
+footer {
+    padding: 80px 0px;
+    background-color: #8cd3c5;
+    .text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        ul {
+            display: flex;
+        }
+        .links {
+            column-gap: 40px;
+            li {
+                a {
+                    color: var(--Primary-Dark-moderate-cyan-footer);
+                    font-size: 17px;
+                }
+            }
+            margin-bottom: 30px;
+        }
+        .social-links {
+            column-gap: 20px;
+        }
+    }
+}

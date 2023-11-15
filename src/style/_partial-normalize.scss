@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+:root {
+    --Primary-priSoftred: hsl(7, 99%, 70%);
+    --Primary-blue: #3dbeff;
+    --Primary-Yellow: hsl(51, 100%, 49%);
+    --Primary-Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
+    --Primary-Dark-blue-photography-text: hsl(198, 62%, 26%);
+    --Primary-Dark-moderate-cyan-footer: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-darkgrayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --fontFamily-1: "Barlow", sans-serif;
+    --fontFamily-2: "Fraunces", serif;
+}
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fontFamily-1);
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+section.landing {
+    padding-top: 85px;
+    height: 400px;
+    background: var(--Primary-blue) url("../images/mobile/image-header.jpg");
+    background-size: cover;
+    background-position: 50% 83%;
+    @media (min-width: 576px) {
+        background: var(--Primary-blue)
+            url("../images/desktop/image-header.jpg");
+        height: 600px;
+        background-size: cover;
+        background-position: 50% 80%;
+    }
+    h2 {
+        text-align: center;
+        font-family: var(--fontFamily-2);
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        color: var(--White);
+        font-weight: 900;
+        font-size: 36px;
+    }
+    .arrow-icon {
+        display: flex;
+        justify-content: center;
+        padding: 18px 0px 0px;
+        @media (min-width: 576px) {
+            padding: 3rem 0px 0px;
+        }
+    }
+    .landing-image {
+        img {
+            width: 100%;
+        }
+    }
+}
